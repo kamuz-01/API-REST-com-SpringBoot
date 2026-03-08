@@ -22,7 +22,7 @@ A aplicação permite o gerenciamento (CRUD) de uma lista de comidas, com persis
 
 ---
 
-## Objetivo do projeto
+## 🎯 Objetivo do projeto
 
 O objetivo principal do projeto é explorar boas práticas no desenvolvimento de APIs REST no ecossistema Spring Boot.
 
