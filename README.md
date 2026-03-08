@@ -94,7 +94,6 @@ src/main/java/org/ProjetoSpringBoot
 │   └── RecursosNaoEncontradosException.java
 │
 └── PrimeiroProjetoSpringBootApplication.java
-
 ```
 
 ---
@@ -197,14 +196,12 @@ cd projeto-springboot
 5. **Execução**:
 ```bash
 ./mvnw spring-boot:run
-
 ```
 
 ou
 
 ```bash
 mvnw spring-boot:run
-
 ```
 
 Ou executar a classe:
