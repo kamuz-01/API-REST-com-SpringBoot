@@ -189,7 +189,7 @@ cd projeto-springboot
 ```
 
 4. **Configuração do Banco**:
-* Crie um banco de dados chamado `PrimeiroProjetoSpringBoot`:
+* Crie um banco de dados chamado `PrimeiroProjetoSpringBoot`, usando o comando SQL:
 ```bash
 CREATE DATABASE PrimeiroProjetoSpringBoot;
 ```
