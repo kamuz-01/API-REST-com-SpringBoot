@@ -1,6 +1,5 @@
 # Projeto Spring Boot - API REST de Gerenciamento de Comidas
 
----
 
 ## Descrição
 
@@ -29,7 +28,6 @@ O objetivo principal do projeto é explorar boas práticas no desenvolvimento de
 
 Ao longo do desenvolvimento, o projeto evoluiu de um exemplo básico até a implementação de **vários recursos comuns em ambientes reais de backend**.
 
----
 
 ## 🚀 Tecnologias Utilizadas
 
