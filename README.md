@@ -1,7 +1,7 @@
 # Projeto Spring Boot - API REST de Gerenciamento de Comidas
 
 
-## Descrição
+## 📋 Descrição do projeto
 
 Este projeto é uma API REST desenvolvida com Spring Boot para fins de **aprendizado e prática** dos fundamentos do ecossistema Spring Boot. 
 Ele foi criado inicialmente como um exemplo básico para consolidar os conhecimentos adquiridos no framework Spring Boot, mas ao longo do desenvolvimento foram adicionados diversos recursos comuns em aplicações reais, como:
@@ -22,7 +22,7 @@ A aplicação permite o gerenciamento (CRUD) de uma lista de comidas, com persis
 
 ---
 
-## 🎯 Objetivo do projeto
+## 🎯 Objetivo
 
 O objetivo principal do projeto é explorar boas práticas no desenvolvimento de APIs REST no ecossistema Spring Boot.
 
@@ -44,23 +44,10 @@ Ao longo do desenvolvimento, o projeto evoluiu de um exemplo básico até a impl
 
 ---
 
-## 🛠️ Estrutura do Projeto
+## 🧩 Estrutura das camadas do projeto
 
 O projeto segue uma arquitetura em camadas bem definida:
 
-* **Models**: Entidade `Comida` que representa a tabela no banco de dados.
-* **Repository**: Interface `ComidasRepository` que herda do `JpaRepository`.
-* **Services**: Camada de lógica de negócio `ComidasService`.
-* **Controllers**: Camada de exposição dos endpoints REST `ComidasController`.
-* **Config**: Configurações de documentação (Swagger) e interceptadores.
-* **GerenciamentoErros**: Tratamento global de exceções para retornos padronizados.
-* **Logging**: Interceptador para registro de acessos e performance da API.
-* **Docs**: Customização de erros por campos inválidos.
-* **DTOs**: Representa os parâmetros que contém a mensagem de erro mostrada ao usuário.
-
----
-
-## 🧩 Estrutura do Projeto
 
 ```
 src/main/java/org/ProjetoSpringBoot
@@ -96,9 +83,21 @@ src/main/java/org/ProjetoSpringBoot
 └── PrimeiroProjetoSpringBootApplication.java
 ```
 
+### Descrição das camadas do projeto
+
+* **Models**: Entidade `Comida` que representa a tabela no banco de dados.
+* **Repository**: Interface `ComidasRepository` que herda do `JpaRepository`.
+* **Services**: Camada de lógica de negócio `ComidasService`.
+* **Controllers**: Camada de exposição dos endpoints REST `ComidasController`.
+* **Config**: Configurações de documentação (Swagger) e interceptadores.
+* **GerenciamentoErros**: Tratamento global de exceções para retornos padronizados.
+* **Logging**: Interceptador para registro de acessos e performance da API.
+* **Docs**: Customização de erros por campos inválidos.
+* **DTOs**: Representa os parâmetros que contém a mensagem de erro mostrada ao usuário.
+
 ---
 
-## 📋 Endpoints Principais
+## 🔗 Endpoints principais da API REST
 
 A API permite realizar operações CRUD sobre a entidade do tipo Comida.
 
@@ -116,7 +115,7 @@ A API está configurada no prefixo `/api/v1/comidas`:
 
 ---
 
-## Tratamento Global de Erros
+## 🐞 Tratamento Global de Erros
 
 A API utiliza **`@RestControllerAdvice`** para tratar exceções globalmente.
 
@@ -241,7 +240,7 @@ logs/
 
 ---
 
-## Possíveis Melhorias Futuras
+## 💡 Possíveis Melhorias Futuras
 
 Algumas melhorias que poderiam ser adicionadas ao projeto:
 
@@ -254,7 +253,7 @@ Algumas melhorias que poderiam ser adicionadas ao projeto:
 
 ---
 
-## Dados do autor
+## 🪪 Dados do autor
 
 **🧑🏽‍💻 Autor:** Karli Munoz
 **📧 Contato:** jesusvzlanz@gmail.com ou karli.manzano@estudantes.ifc.edu.br
