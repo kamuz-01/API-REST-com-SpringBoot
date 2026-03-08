@@ -254,7 +254,7 @@ Algumas melhorias que poderiam ser adicionadas ao projeto:
 
 ---
 
-## 🪪 Dados do autor
+## 👤 Dados do autor
 
 **🧑🏽‍💻 Autor:** Karli Munoz
 
@@ -262,7 +262,9 @@ Algumas melhorias que poderiam ser adicionadas ao projeto:
 
 ---
 
-**Licença:** MIT.  Veja o arquivo `LICENSE` para mais detalhes.
+## 📜 Licença
+
+Este projeto está licenciado sob a **MIT License**. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 
