@@ -257,6 +257,7 @@ Algumas melhorias que poderiam ser adicionadas ao projeto:
 ## 🪪 Dados do autor
 
 **🧑🏽‍💻 Autor:** Karli Munoz
+
 **📧 Contato:** jesusvzlanz@gmail.com ou karli.manzano@estudantes.ifc.edu.br
 
 ---
