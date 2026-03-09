@@ -248,12 +248,12 @@ logs/
 
 Algumas melhorias que poderiam ser adicionadas ao projeto:
 
-* autenticação com **Spring Security**
-* rate limiting
-* métricas com **Spring Boot Actuator + Prometheus**
-* logs estruturados em **JSON**
-* testes automatizados
-* integração com ferramentas de observabilidade
+* Autenticação com **Spring Security**
+* Rate limiting
+* Métricas com **Spring Boot Actuator + Prometheus**
+* Logs estruturados em **JSON**
+* Testes automatizados
+* Integração com ferramentas de observabilidade
 
 ---
 
